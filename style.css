@@ -1,0 +1,101 @@
+.firstnav:hover{
+    color: blue;
+}
+
+.firstnav{
+    font-size: medium;
+    font-weight: lighter;
+    padding-left: 25px;
+}
+
+.citysearch{
+    background-image: url('./Images/magnifer.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left;
+}
+
+.citysearch::placeholder{
+    padding-left: 20px;    
+}
+
+.searchbar{
+    background-image: url('./Images/magnifer.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px;
+}
+
+.login{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.login:hover{
+    text-decoration: none;
+}
+
+.lastnav{
+    background-color: white !important;
+    box-shadow: 0px 0.2px gray;
+}
+
+.loadmore{
+    border-radius: 4px !important;
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.loadmore:hover{
+    border-width: 5px;
+}
+
+.middle{
+    width: 37%;
+    margin: auto;
+}
+
+.lastdiv{
+    background-color: #f7f8f8;
+}
+
+.last{
+    margin: auto;
+}
+
+.backtotop{
+    /* display: none; */
+    position:fixed;
+    top: 150px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 50px 10px 25px;
+    background-image: url('./Images/up\ arrow.png');
+    background-position: 120px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 1px 1px 1px gray;
+    text-decoration: none;
+    color: black;
+    z-index: 1;
+    opacity: 0.2;
+}
+
+.backtotop:hover{
+    opacity: 1;
+}
+
+.foot a{
+    text-decoration: none;
+}
+
+.foot p:hover{
+    color: darkgray;
+}
