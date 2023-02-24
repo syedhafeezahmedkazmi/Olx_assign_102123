@@ -1,0 +1,80 @@
+
+#sbar{
+    width: 500px;
+    border-color: #002F34;
+    margin-left: 20px;
+}
+#location{
+    width: 300px;
+    border-color: #002F34;
+    margin-left: 20px;
+}
+#login{
+    color:#002F34 ;
+    margin-left: 25px;
+    font-weight: bolder;
+}
+#buttons{
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: #23e5db;
+    border-left-color: #ffce32;
+    border-right-color: #3a77ff;
+    border-bottom-color: #3a77ff;
+    margin-left: 25px;
+    border-radius: 30px;
+    width: 78px;
+}
+#navb{
+    height: 100px;
+}
+li{
+    list-style-type: none;
+}
+#one,#two{
+    margin-left: 25px;  
+}
+.ads,.ads2,.ads3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.downloadapp{
+    background-color: #f7f8f9;
+    margin-bottom: 5px;
+
+}
+.download{
+    margin: 100px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footimg{
+    width: 400px;
+}
+.text{
+    border-right: 2px solid #cacdce;
+}
+.text h1{
+    padding: 20px 20px 10px 20px;
+    font-size: 35px;
+}
+.text p{
+    padding: 10px 20px 20px 20px;
+    font-size: 20px;
+}
+.download_store p{
+    padding: 20px 20px 20px 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+.download_store{
+    padding-left: 30px;    
+}
+.download_store img{
+    width: 140px;
+    padding-left: 20px;
+    cursor: pointer;
+}
